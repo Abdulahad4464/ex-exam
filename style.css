@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    width: 100%;
+    height: 98px;
+    background:#fff;
+    color: #000;
+    display: flex;
+    padding: 0 5%;
+    position: static;
+    z-index: 10;
+    box-shadow: 0  1px 1px 1px rgba(0, 0, 0, 0.395);
+
+}
+nav img{
+    width: 160px;
+    height: 100px;
+    transform: translateX(-70px);
+}
+.callection{
+    display: flex;
+}
+.item{
+    cursor: pointer;
+    margin-right: 50px;
+    font-weight:300;
+    font-size: 18px;
+    list-style: none;
+    transform:translateX(160px)translateY(60px) ;
+}
+.banner{
+    width: 100%;
+    height: 610px;
+    background: aquamarine;
+    display: flex;
+    transform: translateY(-37px);
+    overflow: hidden;
+}
+.text_div{
+    width: 50%;
+    height: 100%;
+    background: linear-gradient( 135deg, red,yellow);
+}
+.img_div{
+    width: 50%;
+    height: 100%;
+}
+.img2{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.img1{
+    width: 500px;
+    height: 400px;
+    transform: translateX(410px)translateY(-500px);
+}
+.text_div h1{
+    width: 400px;
+    font-size: 40px;
+    color: #fff;
+    transform: translateX(50px)translateY(230px);
+}
+.text_div h4{
+    color: #fff;
+    transform: translateX(110px)translateY(280px);
+}
+.fa-chevron-down{
+    color: rgb(160, 0, 0);
+    transform: translateX(120px)translateY(60px);
+}
+.fa-chevron-right{
+    padding: 20px;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 50%;
+    transform: translateX(50px)translateY(240px);
+}
+.home{
+    width: 100%;
+    height: 520px;
+    background: rgba(255, 255, 255, 0.918);
+    position: fixed;
+    top: -520px;
+    z-index: 10;
+    transition: 0.3s;
+    overflow: hidden;
+    display: flex;
+}
+.show_home{
+    top: 97px;
+    border: 1px solid black;
+}
+.about{
+    width: 40%;
+    height: 90px;
+    background: #fff;
+    position: fixed;
+    top: -100px;
+    z-index: 10;
+    transition: 0.3s;
+    transform: translateX(750px);
+    box-shadow: 0  3px 3px 3px rgba(0, 0, 0, 0.395);
+    display: flex;
+}
+.show_about{
+    top: 60px;
+}
+.about input{
+    width: 60%;
+    height: 40px;
+    border-radius: 0px;
+    border: 1px solid black;
+    margin: auto 20px;
+    font-size: 16px;
+    padding: 0 20px;
+}
+.about button{
+    width: 20%;
+    height: 40px;
+    background: rgb(106, 106, 106);
+    border: 1px solid grey;
+    color: #fff;
+    font-size: 18px;
+    transform:translateX(-22px) translateY(25px);
+}
+.fa-xmark{
+    transform:translateY(10px) translateX(20px);
+    font-size: 40px;
+    color: gray;
+}
+.lok{
+    width: 200px;
+    height: 40px;
+    border-radius: 3px;
+    box-shadow: 0  1px 1px 1px rgba(0, 0, 0, 0.395);
+    background: rgba(216, 214, 214, 0.733);
+    transform: translateX(1060px)translateY(-90px);
+}
+.chekka{
+    display: flex;
+    list-style: none;
+}
+.chec{
+    margin:10px 20px;
+    transform: translateX(-80px);
+    font-size: 14px;
+}
+.fa-globe{
+    transform:translateX(-66px) translateY(9px);
+    color: gray;
+    font-size: 20px;
+}
+.fa-magnifying-glass{
+    transform:translateX(-66px) translateY(9px);
+    color: rgb(165, 2, 2);
+    font-size: 20px;
+}
+.home i{
+    transform: translateX(1220px);
+}
+.text{
+    width: 30%;
+    height: 110%;
+    background: rgb(94, 93, 93);
+    display: flex;
+    flex-direction: column;
+    transform: translateX(-26px);
+}
+.text h2{
+    width: 100%;
+    color:#fff;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    height: 11%;
+}
+.ss{
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    height: 11%;
+    background: darkgrey;
+    color: black !important;
+}
+.looo{
+    width: 70%;
+    height: 100%;
+}
+.looo h1{
+    transform: translateY(30px);
+}
+.looo h4{
+    width: 400px;
+    font-size: 18px;
+    font-weight: 200;
+    transform: translateY(50px);
+}
+.looo button{
+    width: 160px;
+    height: 50px;
+    background:#fff ;
+    border: 1px solid red;
+    color: red;
+    font-size: 20px;
+    transform: translateY(-50px);
+}
+.looo img{
+    transform: translateX(280px)translateY(-30px);
+}
